@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np 
 import os
 
-from env import get_connection
+from env import get_database
 
 
 def get_log_data():
@@ -17,7 +17,7 @@ def get_log_data():
     
     else:
        
-        url = get_connection('curriculum_logs')
+        url = get_database('curriculum_logs')
         
         query = '''
         SELECT *
