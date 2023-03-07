@@ -11,3 +11,6 @@ Thumbs.db
 *.png
 *.svg
 detecting-time-series-anomalies.ipynb
+nick_working_notebook.ipynb
+scratch_rm.ipynb
+scratch.py
