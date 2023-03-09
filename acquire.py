@@ -4,7 +4,7 @@ import os
 
 from env import get_database
 
-
+#functions below:
 def get_log_data():
     '''
     This function is to get the log dataset from a local csv file or from SQL Ace to our working notebook to be able to
